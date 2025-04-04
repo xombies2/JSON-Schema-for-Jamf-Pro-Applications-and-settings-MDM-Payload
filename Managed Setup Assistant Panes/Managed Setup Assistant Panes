@@ -1,0 +1,43 @@
+{
+  "title": "Software Update Pane (com.apple.SetupAssistant.managed)",
+  "description": "Suppress macOS 15.4 Software Update screen during Setup Assistant",
+  "type": "object",
+  "properties": {
+    "SkipSetupItems": {
+      "title": "Skip Setup Items",
+      "description": "Select one or more Setup Assistant panes to skip.",
+      "property_order": 20,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Accessibility",
+          "Appearance",
+          "AppleID",
+          "Biometric",
+          "Diagnostics",
+          "DisplayTone",
+          "FileVault",
+          "iCloudDiagnostics",
+          "iCloudStorage",
+          "Location",
+          "OnBoarding",
+          "Payment",
+          "Privacy",
+          "Restore",
+          "ScreenTime",
+          "Siri",
+          "SoftwareUpdate",
+          "TermsAndConditions",
+          "TimeZone",
+          "TouchID",
+          "TrueTone",
+          "Welcome"
+        ]
+      }
+    }
+  },
+  "required": [
+    "SkipSetupItems"
+  ]
+}
