@@ -1,0 +1,22 @@
+{
+  "title": "SentinelOne Registration Token",
+  "description": "Configuration profile for SentinelOne registration token, use preference domain: com.sentinelone.registration-token",
+  "type": "object",
+  "properties": {
+    "S1InstallRegistrationToken": {
+      "title": "SentinelOne Registration Token",
+      "description": "The registration token for SentinelOne installation.",
+      "links": [
+        {
+          "rel": "Documentation Link",
+          "href": "https://community.sentinelone.com/s/article/000004904"
+        }
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "S1InstallRegistrationToken"
+  ],
+  "additionalProperties": false
+}
